@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"> <!-- Reusing the main stylesheet for consistency -->
+    <link rel="stylesheet" href="hire-style.css"> <!-- Specific styles for this page -->
+    <title>Hire Me - Shaurya Mangla</title>
+</head>
+<body>
+    <div class="hire-container">
+        <h2 class="heading">Let's Work <span>Together</span></h2>
+        <p class="sub-heading">
+            I'm currently seeking new opportunities and am open to freelance projects, internships, or part-time roles. If you have a project in mind or think I'd be a good fit for your team, please fill out the form below.
+        </p>
+        
+        <form action="#">
+            <div class="input-group">
+                <input type="text" placeholder="Full Name" required>
+                <input type="email" placeholder="Email Address" required>
+            </div>
+            <div class="input-group">
+                <input type="text" placeholder="Company Name (Optional)">
+                <input type="text" placeholder="Project Budget (Optional)">
+            </div>
+            <select name="project-type" required>
+                <option value="" disabled selected>Select Project Type</option>
+                <option value="web-development">Web Development</option>
+                <option value="ui-ux-design">UI/UX Design</option>
+                <option value="python-scripting">Python Scripting</option>
+                <option value="other">Other</option>
+            </select>
+            <textarea name="message" cols="30" rows="10" placeholder="Tell me about your project..." required></textarea>
+            <input type="submit" value="Submit Proposal" class="btn">
+        </form>
+
+        <div class="back-link">
+            <a href="index.html">&larr; Go back to my Portfolio</a>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,116 @@
+/* Importing the main font for consistency */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+body.hire-me-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #080808;
+    padding: 2rem;
+}
+
+.hire-container {
+    max-width: 800px;
+    width: 100%;
+    background-color: #161616;
+    padding: 4rem;
+    border-radius: 1rem;
+    border: 1px solid #333;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+}
+
+.hire-container .heading {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.sub-heading {
+    text-align: center;
+    font-size: 1.6rem;
+    color: #ccc;
+    margin-bottom: 3rem;
+    line-height: 1.7;
+}
+
+.hire-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-group {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.input-group input {
+    width: 100%;
+}
+
+.hire-container input,
+.hire-container textarea,
+.hire-container select {
+    width: 100%;
+    padding: 1.5rem;
+    font-size: 1.6rem;
+    color: white;
+    background: #080808;
+    border-radius: 0.8rem;
+    border: 1px solid #333;
+    font-family: 'Poppins', sans-serif;
+    transition: 0.3s ease;
+}
+
+.hire-container input:focus,
+.hire-container textarea:focus,
+.hire-container select:focus {
+    border-color: #b74b4b;
+    box-shadow: 0 0 10px rgba(183, 75, 75, 0.5);
+    outline: none;
+}
+
+.hire-container textarea {
+    resize: vertical;
+    min-height: 150px;
+    margin-bottom: 1.5rem;
+}
+
+.hire-container select {
+    margin-bottom: 1.5rem;
+    appearance: none; /* For custom arrow */
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23b74b4b' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-position: right 1.5rem center;
+    background-size: 1.5em;
+    padding-right: 4rem;
+}
+
+.hire-container .btn {
+    align-self: center; /* Center the button */
+    margin-top: 2rem;
+}
+
+.back-link {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.back-link a {
+    font-size: 1.6rem;
+    color: #b74b4b;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.back-link a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+    .input-group {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+}
