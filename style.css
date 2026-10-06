@@ -522,6 +522,49 @@ span {
 
 
 /*-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+    PROJECT BUTTON MODIFIER
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
+.btn-small {
+    padding: 0.8rem 2rem;
+    font-size: 1.4rem;
+    margin-top: 1.5rem;
+}
+
+/*-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+    FOOTER SECTION
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
+.footer {
+    background-color: #080808;
+    text-align: center;
+    padding: 3rem 9%;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer .social-icons {
+    margin-bottom: 2rem;
+}
+
+.footer .social-icons a {
+    margin: 0 1rem;
+}
+
+.footer .copyright {
+    font-size: 1.5rem;
+    color: #ccc;
+}
+
+/*-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+    MENU ICON (Desktop Hide)
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
+#menu-icon {
+    font-size: 3.6rem;
+    color: white;
+    cursor: pointer;
+    display: none;
+}
+
+
+/*-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
     9. RESPONSIVE DESIGN
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
 @media (max-width: 1200px) {
@@ -531,6 +574,10 @@ span {
 }
 
 @media (max-width: 995px) {
+    #menu-icon {
+        display: block; 
+    }
+
     nav {
         position: absolute;
         display: none;
@@ -621,4 +668,3 @@ span {
         gap: 2rem;
     }
 }
-
