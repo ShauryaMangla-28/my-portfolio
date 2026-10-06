@@ -202,7 +202,7 @@ span {
 }
 
 @keyframes words {
-    0%, 20% { content: "1st Year Student"; }
+    0%, 20% { content: "2nd Year Student"; }
     21%, 40% { content: "Computer Engineer"; }
     41%, 60% { content: "Developer"; }
     61%, 80% { content: "Reader"; }
